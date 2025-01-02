@@ -7,7 +7,7 @@ section:
   showOnNavbar: true
   template: sections/about.html
 
-# your designation
+# your position
 designation: Founding Machine Learning Engineer
 # your company information
 company:
