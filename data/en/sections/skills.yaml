@@ -13,59 +13,317 @@ section:
 buttons:
 - name: All
   filter: "all"
-- name: Basic
-  filter: "basic"
-- name: Language
-  filter: "language"
-- name: Container
-  filter: "container"
-- name: Others
-  filter: "others"
+- name: Languages
+  filter: "languages"
+- name: Data Frameworks
+  filter: "ds"
+- name: NLP
+  filter: "nlp"
+- name: Data Engineering
+  filter: "dataeng"
+- name: Data Viz
+  filter: "dataviz"
+- name: Web Dev
+  filter: "webdev"
+- name: Database
+  filter: "db"
 
 # Your Skills.
 # Give a summary of you each skill in the summary section.
+
 skills:
-- name: Kubernetes
-  logo: /images/sections/skills/kubernetes.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  categories: ["container"]
-  url: "https://kubernetes.io/"
+- name: Python
+  summary: "Expert in Python for software development, data science, and automation."
+  categories: ["languages"]
+  url: "https://www.python.org/"
 
-- name: Go Development
-  logo: /images/sections/skills/go.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  categories: ["basic", "language"]
-  url: "https://golang.org/"
+- name: Javascript
+  summary: "Skilled in using JavaScript for interactive web development and server-side programming."
+  categories: ["languages"]
+  url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
 
-- name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
-  categories: ["others"]
+- name: SQL
+  summary: "Proficient in writing complex queries for data retrieval and manipulation."
+  categories: ["languages"]
+  url: "https://www.mysql.com/"
+
+- name: Java
+  summary: "Experienced in building object-oriented applications in Java."
+  categories: ["languages"]
+  url: "https://www.java.com/"
+
+- name: HTML
+  summary: "Proficient in creating semantic and accessible web page structures."
+  categories: ["languages", "webdev"]
+  url: "https://developer.mozilla.org/en-US/docs/Web/HTML"
+
+- name: CSS
+  summary: "Skilled in designing responsive and visually appealing web interfaces using CSS."
+  categories: ["languages", "webdev"]
+  url: "https://developer.mozilla.org/en-US/docs/Web/CSS"
+
+- name: C#
+  summary: "Proficient in using C# within Unity."
+  categories: ["languages"]
+  url: "https://learn.microsoft.com/en-us/dotnet/csharp/"
+
+# ANALYTICS FRAMEWORKS
+- name: Numpy
+  summary: "Proficient in numerical computing using Numpy for data processing."
+  categories: ["ds"]
+  url: "https://numpy.org/"
+
+- name: Pandas
+  summary: "Expert in data manipulation and analysis with Pandas."
+  categories: ["ds"]
+  url: "https://pandas.pydata.org/"
+
+- name: Scikit-learn
+  summary: "Skilled in implementing machine learning models using Scikit-learn."
+  categories: ["ds"]
+  url: "https://scikit-learn.org/"
+
+- name: Pytorch
+  summary: "Capable of building neural networks and deep learning models with PyTorch."
+  categories: ["ds"]
+  url: "https://pytorch.org/"
+
+- name: Keras
+  summary: "Experienced in high-level neural network API development with Keras."
+  categories: ["ds"]
+  url: "https://keras.io/"
+
+- name: Tensorflow
+  summary: "Proficient in building and deploying machine learning models using TensorFlow."
+  categories: ["ds"]
+  url: "https://www.tensorflow.org/"
+
+- name: BigQuery
+  summary: "Expert in managing and querying large datasets using BigQuery."
+  categories: ["ds", "dataeng"]
+  url: "https://cloud.google.com/bigquery"
+
+- name: Dask
+  summary: "Skilled in parallel computing and scaling data workflows with Dask."
+  categories: ["ds"]
+  url: "https://www.dask.org/"
+
+- name: PySpark
+  summary: "Proficient in distributed data processing using PySpark."
+  categories: ["ds", "dataeng"]
+  url: "https://spark.apache.org/docs/latest/api/python/"
+
+# NATURAL LANGUAGE PROCESSING
+- name: NLTK
+  summary: "Experienced in natural language processing using NLTK."
+  categories: ["nlp"]
+  url: "https://www.nltk.org/"
+
+- name: Spacy
+  summary: "Proficient in building NLP pipelines with Spacy."
+  categories: ["nlp"]
+  url: "https://spacy.io/"
+
+- name: LLMs
+  summary: "Skilled in working with large language models for advanced NLP tasks."
+  categories: ["nlp"]
+  url: "https://en.wikipedia.org/wiki/Language_model"
+
+- name: Generative AI
+  summary: "Experienced in leveraging generative AI models for creative and predictive tasks."
+  categories: ["nlp"]
+  url: "https://en.wikipedia.org/wiki/Generative_artificial_intelligence"
+
+- name: Langchain
+  summary: "Experienced in leveraging generative AI models for creative and predictive tasks."
+  categories: ["nlp"]
+  url: "https://en.wikipedia.org/wiki/Generative_artificial_intelligence"
+
+- name: Transformers
+  summary: "Proficient in using transformers for NLP tasks like translation and summarization."
+  categories: ["nlp"]
+  url: "https://huggingface.co/transformers/"
+
+- name: OCR
+  summary: "Experienced in extracting text from images and PDFs using OCR techniques."
+  categories: ["nlp"]
+  url: "https://en.wikipedia.org/wiki/Optical_character_recognition"
+
+# DATA ENGINEERING
+- name: DBT
+  summary: "Experienced in transforming and modeling data using DBT."
+  categories: ["dataeng"]
+  url: "https://www.getdbt.com/"
+
+- name: Snowflake
+  summary: "Proficient in managing, maintaining, and querying data warehouses with Snowflake."
+  categories: ["dataeng", "db"]
+  url: "https://www.snowflake.com/"
+
+- name: AWS Lambda
+  summary: "Skilled in developing serverless applications with AWS Lambda."
+  categories: ["dataeng"]
+  url: "https://aws.amazon.com/lambda/"
+
+- name: GCP Functions
+  summary: "Experienced in deploying and managing serverless functions on GCP."
+  categories: ["dataeng"]
+  url: "https://cloud.google.com/functions"
+
+- name: EMR
+  summary: "Proficient in processing large-scale data using AWS EMR."
+  categories: ["dataeng"]
+  url: "https://aws.amazon.com/emr/"
+
+- name: Elastic Beanstalk
+  summary: "Experienced in deploying web applications with Elastic Beanstalk."
+  categories: ["dataeng", "webdev"]
+  url: "https://aws.amazon.com/elasticbeanstalk/"
+
+- name: Prefect
+  summary: "Skilled in orchestrating data workflows using Prefect."
+  categories: ["dataeng"]
+  url: "https://www.prefect.io/"
 
 - name: Docker
-  logo: /images/sections/skills/docker.svg
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
-  categories: ["container"]
+  summary: "Experienced in containerizing applications and managing environments with Docker."
+  categories: ["dataeng", "container"]
   url: "https://www.docker.com/"
 
-- name: Prometheus
-  logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  categories: ["basic"]
-  url: "https://prometheus.io/"
+- name: AWS Step Functions
+  summary: "Proficient in orchestrating serverless workflows using AWS Step Functions."
+  categories: ["dataeng"]
+  url: "https://aws.amazon.com/step-functions/"
 
-- name: Linux
-  logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
-  categories: ["others"]
+- name: Cube
+  summary: "Experienced in building and scaling analytical APIs with Cube."
+  categories: ["dataeng"]
+  url: "https://cube.dev/"
 
-- name: Git
-  logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  categories: ["basic"]
-  url: "https://git-scm.com/"
+- name: PubSub
+  summary: "Skilled in real-time messaging and event streaming with PubSub."
+  categories: ["dataeng"]
+  url: "https://cloud.google.com/pubsub"
 
-- name: C++
-  logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
-  categories: ["basic", "language"]
+# DATA VISUALIZATION
+- name: Plotly
+  summary: "Proficient in creating interactive data visualizations with Plotly."
+  categories: ["dataviz"]
+  url: "https://plotly.com/"
+
+- name: Streamlit
+  summary: "Proficient in creating multi-page dynamic visualizations with Streamlit."
+  categories: ["dataviz", "webdev"]
+  url: "https://streamlit.com/"
+
+- name: Dash
+  summary: "Experienced in building analytical web applications using Dash."
+  categories: ["dataviz", "webdev"]
+  url: "https://dash.plotly.com/"
+
+- name: Matplotlib
+  summary: "Skilled in creating static, animated, and interactive visualizations with Matplotlib."
+  categories: ["dataviz"]
+  url: "https://matplotlib.org/"
+
+- name: Seaborn
+  summary: "Experienced in producing informative statistical graphics with Seaborn."
+  categories: ["dataviz"]
+  url: "https://seaborn.pydata.org/"
+
+- name: Bokeh
+  summary: "Proficient in building interactive visualizations and dashboards with Bokeh."
+  categories: ["dataviz"]
+  url: "https://bokeh.org/"
+
+- name: D3
+  summary: "Skilled in creating complex visualizations using D3.js."
+  categories: ["dataviz", "webdev"]
+  url: "https://d3js.org/"
+
+- name: Tableau
+  summary: "Experienced in visualizing and analyzing data using Tableau."
+  categories: ["dataviz"]
+  url: "https://www.tableau.com/"
+
+- name: Unity
+  summary: "Proficient in developing immersive 3D data visualization experiences using Unity."
+  categories: ["dataviz", "webdev"]
+  url: "https://unity.com/"
+
+# WEB DEVELOPMENT
+- name: Jinja
+  summary: "Skilled in rendering dynamic web templates using Jinja."
+  categories: ["webdev"]
+  url: "https://jinja.palletsprojects.com/"
+
+- name: NodeJS
+  summary: "Proficient in developing server-side applications using NodeJS."
+  categories: ["webdev"]
+  url: "https://nodejs.org/"
+
+- name: JQuery
+  summary: "Experienced in simplifying DOM manipulation and event handling using JQuery."
+  categories: ["webdev"]
+  url: "https://jquery.com/"
+
+- name: Hugo
+  summary: "Skilled in building fast and flexible websites using Hugo."
+  categories: ["webdev"]
+  url: "https://gohugo.io/"
+
+- name: Flask
+  summary: "Proficient in creating lightweight web applications with Flask."
+  categories: ["webdev"]
+  url: "https://flask.palletsprojects.com/"
+
+- name: Express
+  summary: "Experienced in developing RESTful APIs and web applications with Express."
+  categories: ["webdev"]
+  url: "https://expressjs.com/"
+
+# DATABASE
+- name: SnowSQL
+  summary: "Proficient in managing and querying Snowflake databases with SnowSQL."
+  categories: ["db"]
+  url: "https://docs.snowflake.com/en/user-guide/snowsql.html"
+
+- name: Pinecone
+  summary: "Proficient in Encoding, Storage, and retrieval of vector databases"
+  categories: ["db"]
+  url: "https://www.pinecone.io/"
+
+- name: DynamoDB
+  summary: "Experienced in building fast and scalable NoSQL applications with DynamoDB."
+  categories: ["db"]
+  url: "https://aws.amazon.com/dynamodb/"
+
+- name: S3
+  summary: "Skilled in managing cloud storage solutions with AWS S3."
+  categories: ["db", "dataeng"]
+  url: "https://aws.amazon.com/s3/"
+
+- name: GCP Storage
+  summary: "Proficient in managing and accessing data with Google Cloud Storage."
+  categories: ["db"]
+  url: "https://cloud.google.com/storage"
+
+- name: MySQL
+  summary: "Experienced in database administration and query optimization with MySQL."
+  categories: ["db"]
+  url: "https://www.mysql.com/"
+
+- name: PostgreSQL
+  summary: "Proficient in working with relational databases using PostgreSQL."
+  categories: ["db"]
+  url: "https://www.postgresql.org/"
+
+- name: SQLAlchemy
+  summary: "Skilled in using SQLAlchemy for object-relational mapping."
+  categories: ["db"]
+  url: "https://www.sqlalchemy.org/"
+
+- name: Kafka
+  summary: "Experienced in building distributed event streaming platforms with Kafka."
+  categories: ["db", "dataeng"]
+  url: "https://kafka.apache.org/"

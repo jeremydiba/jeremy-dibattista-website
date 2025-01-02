@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Accomplishments
+  name: Teaching and Volenteering
   id: accomplishments
   enable: true
   weight: 9
@@ -11,36 +11,31 @@ section:
 
 # Your accomplishments
 accomplishments:
-- name: Linux Foundation System Administrator
-  timeline: "March 2018 - March 2019"
+- name: Volenteer Co-Teacher AP CSP
+  timeline: "August 2022 - May 2024"
   organization:
-    name: Linux Foundation
-    url: https://www.linuxfoundation.org
-  courseOverview: This course helps to understand the key concepts such as networking, storage, security, maintenance, logging and monitoring, application lifecycle, troubleshooting, API object primitives etc. It also help to grow the ability to establish basic use-cases for end users.
-  certificateURL: "https://example.com"
+    name: Microsoft Foundation
+  courseOverview: Partner with local schools and teachers lacking technical resources to bring equitable CS programs to the Atlanta area. Currently teaching AP Computer Science for Drew High School.
 
-- name: Machine Learning
-  timeline: "Jun 2020 - Jan 2021"
+- name: Educative Course Writer
+  timeline: "December 2022 - September 2023"
   organization:
-    name: Coursera
-    url: https://www.coursera.org
-  courseOverview: "This course provides a broad introduction to machine learning, datamining, and statistical pattern recognition. Topics include: (i) Supervised learning (parametric/non-parametric algorithms, support vector machines, kernels, neural networks). (ii) Unsupervised learning (clustering, dimensionality reduction, recommender systems, deep learning). (iii) Best practices in machine learning (bias/variance theory; innovation process in machine learning and AI)."
-  certificateURL: "https://example.com"
-
-- name: Grokking the System Design Interview
-  timeline: "Jan 2018 - Sept 2018"
+    name: Educative
+  courseOverview: Developed a course for advanced NLP topics starting with simple topics like Norvig spell checking and covering topics like Markov Models, Viterbi, and Levenstein distance. The course culminates by teaching transformer-based spell checking and grammar correction (ex. GECToR).
+- name: Head Graduate Teaching Assistant
+  timeline: "May 2020 – Dec 2020"
   organization:
-    name: educative
-    url: https://www.educative.io
-  courseOverview: This course is a complete guide to master the SDIs. It is created by hiring managers who’ve been working at Google, Facebook, Microsoft, and Amazon. We've carefully chosen a set of questions that have not only been repeatedly asked at top companies, but also provide a thorough experience to handle any system design problem.
-  certificateURL: "https://example.com"
+    name: Georgia Institute of Technology
+  courseOverview: Worked closely with the professor to create a curriculum of assignments while assisting students in ensuring they develop content mastery. Head GTA for Computer Networking, GTA for Game Design.
 
-- name: Mastering Multithreading Programming with Go (Golang)
-  timeline: "Nov 2017 - Mar 2018"
+- name: Data Visualization Researcher and Lecturer
+  timeline: "Jan 2018 – Dec 2018"
   organization:
-    name: Udemy
-    url: https://www.udemy.com
-  courseOverview: Discover how to create responsive and high performance software. Develop programs with Golang that are highly Concurrent and Parallel. Improve your programming skills in Go with more advanced, multithreading topics.
-  certificateURL: "https://example.com"
- 
+    name: Georgia Institute of Technology
+  courseOverview: Created workshops for students and faculty detailing how to use Python libraries in order to create complex visualizations. Workshops spanned multiple offerings per semester and covered varios visualtion tools and levels of expertise.
 
+- name: Techincal Writer
+  timeline: "April 2020 - Present"
+  organization:
+    name: Towards Data Science
+  courseOverview: Long-form technical writing covering a variety of subjects in deep learning, python, and data science; SEO-optimized articles have helped generate over 150 thousand readers.

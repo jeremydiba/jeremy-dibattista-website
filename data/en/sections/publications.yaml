@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Publications
+  name: Featured and Recent Articles
   id: publications
   enable: true
   weight: 6
@@ -14,69 +14,64 @@ buttons:
   filter: "all"
 - name: "Machine Learning"
   filter: "machinelearning"
-- name: "Image Processing"
-  filter: "image-processing"
-- name: Security
-  filter: "security"
+- name: "Data Science"
+  filter: "data-science"
+- name: "Other"
+  filter: "other"
 
 # your publications
 publications:
-- title: An Example Paper on Machine Learning
+- title: Set Up a Local ChatGPT-Like Interface + Copilot in Less Than 10 Minutes
   publishedIn:
-    name: 2020 IEEE Region Symposium (TENSYMP)
-    date: 7 June 2020
-    url: https://example.com
-  authors:
-  - name: Dr. Madman
-    url: https://example.com
-  - name: Dr. Lessmad
-    url: https://example.com
-  - name: Dr. Moremad
-    url: https://example.com
-  - name: Dr. Goodman
-    url: https://example.com
+    name: Towards Data Science
+    date: 14 Nov 2024
+    url: https://medium.com/towards-data-science/
   paper:
-    summary: Voluptate in id id voluptate laboris. Minim mollit aliquip sit aliqua ut exercitation voluptate eiusmod consequat pariatur sunt enim veniam. Velit esse tempor laboris anim tempor officia. Magna non labore duis do esse sit do ipsum culpa. Officia consequat id non duis culpa dolor. Excepteur magna non nostrud cupidatat aute aliqua aliquip.
-    url: https://example.com
-  categories: ["machinelearning","image-processing"]
-  tags: ["Machine Learning", "Autonomous Driving", "Computer Vision"]
+    summary: Using Ollama, Llama3, Continue, and Open WebUI to bring a safe, local, open source, and free virtual assistant experience
+    url: https://medium.com/towards-data-science/set-up-a-local-chatgpt-like-interface-copilot-in-less-than-10-minutes-60a02acd2628?sk=60a507a7dc1bd416dbd429827cd29858
+  categories: ["machinelearning"]
+  tags: ["Machine Learning"]
 
-- title: An Sample Paper on Image Processing
+- title: NLP Demystified, Using the Viterbi Algorithm for Part-of-Speech Tagging
   publishedIn:
-    name: 2020 IEEE Region Symposium (TENSYMP)
-    date: 7 June 2020
-    url: https://example.com
-  authors:
-  - name: Dr. Madman
-    url: https://example.com
-  - name: Dr. Lessmad
-    url: https://example.com
-  - name: Dr. Moremad
-    url: https://example.com
-  - name: Dr. Goodman
-    url: https://example.com
+    name: Geek Culture
+    date: 3 May 2024
+    url: https://medium.com/geekculture
   paper:
-    summary: Ullamco magna minim cupidatat Lorem ea ex aliqua fugiat et. Dolor quis cillum ea duis irure et commodo aliquip consectetur ullamco labore ut anim nisi. Commodo reprehenderit est consectetur tempor adipisicing occaecat exercitation amet do aliquip dolor do irure. Labore officia ut magna pariatur reprehenderit et ex sit sunt. Magna proident ullamco adipisicing sit.
-    url: https://example.com
-  categories: ["image-processing"]
-  tags: ["Image Processing", "Computer Vision"]
+    summary: Understand with examples how Hidden Markov Models perform part-of-speech tagging
+    url: https://medium.com/@jerdibattista/nlp-demystified-using-the-viterbi-algorithm-for-part-of-speech-tagging-274e233f30fd?sk=8c7fb420c7eb593f1ec9b266f992e375
+  categories: ["machinelearning"]
+  tags: ["Machine Learning"]
 
-- title: An Example Paper on Security
+- title: Choosing the Best ML Time Series Model for Your Data
   publishedIn:
-    name: 2020 IEEE Region Symposium (TENSYMP)
-    date: 7 June 2020
-    url: https://example.com
-  authors:
-  - name: Dr. Madman
-    url: https://example.com
-  - name: Dr. Lessmad
-    url: https://example.com
-  - name: Dr. Moremad
-    url: https://example.com
-  - name: Dr. Goodman
-    url: https://example.com
+    name: Towards Data Science
+    date: 18 Nov 2022
+    url: https://medium.com/towards-data-science/
   paper:
-    summary: Dolor ad cupidatat pariatur nulla ipsum ex ullamco nisi anim ullamco. Dolore elit esse in exercitation minim aliqua. Amet velit incididunt magna laboris. Proident reprehenderit deserunt ad officia duis dolor. Tempor nostrud ullamco ullamco sint deserunt cupidatat irure minim consectetur nulla adipisicing sunt.
-    url: https://example.com
-  categories: ["security"]
-  tags: ["Machine Learning", "Autonomous Driving", "Machine Vision"]
+    summary: ARIMA, Prophet, LSTMs, CNNs, GPVAR, Seasonal Decomposition, DeepAR, and more. When it comes to time series models, there are a plethora of methods, meaning it is important to consider your options before committing to a model.
+    url: https://medium.com/towards-data-science/choosing-the-best-ml-time-series-model-for-your-data-664a7062f418?sk=b56fd95fe1d0ebbe4a79a966bc9c236a
+  categories: ["machinelearning"]
+  tags: ["Machine Learning"]
+
+- title: Easily Automate Your Documentation and Never Touch It Again
+  publishedIn:
+    name: Towards Data Science
+    date: 12 April 2022
+    url: https://medium.com/towards-data-science/
+  paper:
+    summary: Completely automated documentation process in Python using MkDocs
+    url: https://medium.com/towards-data-science/easily-automate-and-never-touch-your-documentation-again-a98c91ce1b95?sk=2ca15f0069e8529e91acfd50085d1113
+  categories: ["other"]
+  tags: ["Automation"]
+
+- title: The most Efficient way to Merge/Join Pandas Dataframes
+  publishedIn:
+    name: Towards Data Science
+    date: 3 March 2022
+    url: https://medium.com/towards-data-science/
+  paper:
+    summary: Why almost everyone is writing them inefficiently, and a few tips for optimal data science!
+    url: https://medium.com/towards-data-science/the-most-efficient-way-to-merge-join-pandas-dataframes-7576e8b6c5c
+  categories: ["data-science"]
+  tags: ["Data Science"]
